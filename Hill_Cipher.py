@@ -13,17 +13,13 @@ def text_issue(text,square):
         text.append("z")
     return res
 
-Letters={"a":0,"b":1,"c":2,"d":3,"e":4,"f":5,"g":6,"h":7,"i":8,"j":9,"k":10,"l":11,"m":12,"n":13,"o":14,"p":15,"q":16,"r":17,"s":18,"t":19,"u":20,"v":21,"w":22,"x":23,"y":24,"z":25}
-#plaintext=input("Palabra a cifrar:")
-plaintext="teamomucho"
-text=list(plaintext)
-text_numbers=[]
-key_numbers=[]
-#Key=input("Palabra llave:")
-key="ebdacbfbd"
-key=list(key)
+
 #Preparation for Encription 
 def preparation(key,text):
+    key_numbers=[]
+    text_numbers=[]
+    text=list(text)
+    key=list(key)
     information=[]
     for j in range(len(key)): 
         for i in Letters.items():           
@@ -38,12 +34,19 @@ def preparation(key,text):
     information.append(text_numbers) # text_numbers 2
     information.append(np.array(key_numbers).reshape(information[0],information[0])) #key_matrix 3
     det_key_matrix=int(np.linalg.det(information[3]))
-    invert_number=inversion_modular.module_invert(det_key_matrix)
+    print(information[3])
+    print(det_key_matrix)
+    invert_number=inversion_modular.module_invert(det_key_matrix-1)
+    print(invert_number)
+    information.append(invert_number)
+    information.append(det_key_matrix-1)
     # Contain of the array information: 
     # square            0
     # lenght_plaintext  1
-    # text_numbers 2
+    # text_numbers      2
     # key_matrix        3
+    # invert_number     4
+    # determinant       5
     return information
 
 #Encryption
@@ -68,11 +71,33 @@ def Encryption(information):
     encript_message=" "
     for i in range(0,lenght_plaintext):
         encript_message=encript_message+res[i]
-    print(encript_message)
+    return encript_message
 
 #Decryption 
-#def Decryption(key,ciphertext):
-
+def Decryption(information):
+    square=information[0]
+    lenght_plaintext=information[1]
+    plaintext_numbers=information[2]
+    key_matrix=information[3]
+    inverse_number=information[4]
+    det_key_matrix=information[5]
+    inverse=np.linalg.inv(key_matrix)
+    inverse_key_matrix=np.round(inverse,1)
+    adj_key_matrix=inverse_key_matrix * det_key_matrix
+    mod_inverse_matrix=adj_key_matrix * inverse_number
+    mod_inverse_matrix=mod_inverse_matrix%26
+    print(mod_inverse_matrix)
+    
+Letters={"a":0,"b":1,"c":2,"d":3,"e":4,"f":5,"g":6,"h":7,"i":8,"j":9,"k":10,"l":11,"m":12,"n":13,"o":14,"p":15,"q":16,"r":17,"s":18,"t":19,"u":20,"v":21,"w":22,"x":23,"y":24,"z":25}
+#plaintext=input("Palabra a cifrar:")
+plaintext="teamomucho"
+text_numbers=[]
+key_numbers=[]
+#Key=input("Palabra llave:")
+key="ebdacbfbd"
 information=[]
-information=preparation(key,text)
-Encryption(information)
+information=preparation(key,plaintext)
+encript_message=Encryption(information)
+key_decrypt="ebdacbfbd"
+information=preparation(key_decrypt,encript_message)
+Decryption(information)
