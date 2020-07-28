@@ -7,18 +7,18 @@ def text_issue(text,square):
     i=1
     while square*i<len(text):
         i=i+1
-        if i*square==len(plaintext):
+        if i*square==len(text):
             break
     res=i*square
-    diff=res-len(plaintext)
+    diff=res-len(text)
     for i in range(0,diff):
         text.append("z")
-        print(text)
     return res
 
 
 #Preparation for Encription 
 def preparation(key,text,option):
+    #The key,cyphertext and option must be a string 
     key_numbers=[]
     text_numbers=[]
     text=list(text)
@@ -87,7 +87,6 @@ def Decryption(information):
     square=information[0]
     lenght_plaintext=information[1]
     plaintext_numbers=information[2]
-    print(plaintext_numbers)
     key_matrix=information[3]
     inverse_number=information[4]
     det_key_matrix=information[5]
@@ -98,12 +97,10 @@ def Decryption(information):
     adj_key_matrix=inverse_key_matrix * det_key_matrix
     mod_inverse_matrix=adj_key_matrix * inverse_number
     mod_inverse_matrix=mod_inverse_matrix%26
-    #print(mod_inverse_matrix)
     words=int(lenght_plaintext/square)
     array_plaintext=[]
     for i in range(0,words):
         array_plaintext.append(np.array(plaintext_numbers[i*square:(i*square)+square]))
-        #print(array_plaintext)
     result=[]
     res=[]
     for p in range(0,words):
@@ -113,23 +110,42 @@ def Decryption(information):
             for i in Letters.items():
                     if i[1]==result[j]:
                         res.append(i[0])
-    decrypt_message=" "
+    decrypt_message=""
     for i in range(0,lenght_plaintext):
         decrypt_message=decrypt_message+res[i]
-    print(decrypt_message)
+    return(decrypt_message)
+   
+def menu(switcher):
+    if switcher==1:
+        plaintext=input("Palabra a cifrar:")
+        plaintext=plaintext.lower()
+        text_numbers=[]
+        key_numbers=[]
+        #Key=input("Palabra llave:")
+        key="ebdacbfbd" 
+        information=[]  
+        information=preparation(key,plaintext,"encrypt")
+        encript_message=Encryption(information)
+        print(encript_message)
+    elif switcher==2:
+        cyphertext=input("texto cifrado: ")
+        cyphertext=cyphertext.lower()
+        key_decrypt="ebdacbfbd"
+        information=[]
+        information=preparation(key_decrypt,cyphertext,"decrypt")
+        decrypt_message=Decryption(information)
+        print(decrypt_message)
 
-    
-    
 Letters={"a":0,"b":1,"c":2,"d":3,"e":4,"f":5,"g":6,"h":7,"i":8,"j":9,"k":10,"l":11,"m":12,"n":13,"o":14,"p":15,"q":16,"r":17,"s":18,"t":19,"u":20,"v":21,"w":22,"x":23,"y":24,"z":25}
-#plaintext=input("Palabra a cifrar:")
-plaintext="teamomucho"
-text_numbers=[]
-key_numbers=[]
-#Key=input("Palabra llave:")
-key="ebdacbfbd"
-information=[]
-information=preparation(key,plaintext,"encrypt")
-encript_message=Encryption(information)
-key_decrypt="ebdacbfbd"
-information=preparation(key_decrypt,encript_message,"decrypt")
-Decryption(information)
+
+
+print("1. Encriptar mensaje")
+print("2. Desencriptar mensaje")
+repeat="si"
+while repeat=="si":
+    switcher=int(input("Que opcion desea: ") )  
+    menu(switcher)
+    repeat=input("Otra vez?(si/no): ")
+    repeat=repeat.lower()
+    
+    
