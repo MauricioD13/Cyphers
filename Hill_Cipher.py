@@ -147,13 +147,13 @@ Letters={"a":0,"b":1,"c":2,"d":3,"e":4,"f":5,"g":6,"h":7,"i":8,"j":9,"k":10,"l":
 
 
 
-repeat="si"
-while repeat=="si":
-    print("1. Encriptar mensaje")
-    print("2. Desencriptar mensaje")
-    switcher=int(input("Que opcion desea: ") )  
-    menu(switcher)
-    repeat=input("Otra vez?(si/no): ")
-    repeat=repeat.lower()
+#repeat="si"
+#while repeat=="si":
+   # print("1. Encriptar mensaje")
+    #print("2. Desencriptar mensaje")
+   # switcher=int(input("Que opcion desea: ") )  
+   # menu(switcher)
+   # repeat=input("Otra vez?(si/no): ")
+   # repeat=repeat.lower()
     
     
