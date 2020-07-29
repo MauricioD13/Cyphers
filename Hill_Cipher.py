@@ -25,7 +25,7 @@ def text_issue(text,square):
     # invert_number     4
     # determinant       5
     # lenght_text       6
-def preparation(key,text,option):
+def preparation(key,text):
     #The key,cyphertext and option must be a string 
     key_numbers=[]
     text_numbers=[]
@@ -131,7 +131,7 @@ def menu(switcher):
         #Key=input("Palabra llave:")
         key="ebdacbfbd" 
         information=[]  
-        information=preparation(key,plaintext,"encrypt")
+        information=preparation(plaintext,"encrypt")
         encript_message=Encryption(information)
         print(encript_message)
     elif switcher==2:
