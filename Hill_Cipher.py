@@ -131,7 +131,7 @@ def menu(switcher):
         #Key=input("Palabra llave:")
         key="ebdacbfbd" 
         information=[]  
-        information=preparation(plaintext,"encrypt")
+        information=preparation(key,plaintext,"encrypt")
         encript_message=Encryption(information)
         print(encript_message)
     elif switcher==2:
