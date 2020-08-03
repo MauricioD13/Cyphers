@@ -3,4 +3,4 @@ def module_invert(determinant):
         if (determinant*i)%26==1:
             return i
     else:
-        print("The key matrix have not modular inverse")
+            print("No tiene inverso modular")

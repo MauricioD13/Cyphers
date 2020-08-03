@@ -11,6 +11,7 @@ def clicked():
     if action_options.get()=="Cifrar":
        if key_select.get()==0: 
             information=Hill_Cipher.preparation(key_txt.get(),text_txt.get())
+            print(information[1])
        else:
             information=Hill_Cipher.preparation("ebdacbfbd",text_txt.get())
        mensaje=Hill_Cipher.Encryption(information)
@@ -37,6 +38,7 @@ key_select_radiobtn0=Radiobutton(window,text="Si",variable=key_select,value=0)
 key_select_radiobtn1=Radiobutton(window,text="No",variable=key_select,value=1)
 key_label=Label(window,text="Llave")
 key_txt=Entry(window,width=20)
+warning_label=Label(window,text="")
 
 #Location
 text_label.grid(row=0, column=0)
@@ -50,4 +52,5 @@ key_select_radiobtn0.grid(ipady=2)
 key_select_radiobtn1.grid(ipady=3)
 key_label.grid(row=2, column=1)
 key_txt.grid(row=3,column=1)
+warning_label.grid(row=4,column=0)
 window.mainloop()
