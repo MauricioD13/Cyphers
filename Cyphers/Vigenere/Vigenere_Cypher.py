@@ -36,8 +36,8 @@ def Decrypt(key,cyphertext):
     return plaintext
 
         
-key="hola"
-plaintext="quiero que esto funcione"
+key="CLASICO"
+plaintext="e074153d54c7b689b519f0b58d426893"
 key=preparation(key,plaintext)
 message=Encrypt(key,plaintext)
 message=Decrypt(key,message)
