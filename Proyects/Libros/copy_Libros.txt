@@ -1,0 +1,283 @@
+Titulo-	Autor-	Genero-	Editorial
+Berta isla-	Javier Marias-	Literatura-	?
+Confin del mundo-	Valerio Massimo-	Literatura-	?
+Hijo del sueño-	Valerio Massimo-	Literatura-	?
+La decadencia de neron gold-	Salman Rushdie-	Literatura-	?
+Nieve-	Orhan Pamuk-	Literatura-	?
+Divina Comedia-	Dante de Aligiri-	Literatura-	?
+Bellas esperanzas-	Michelle Ragon-	Literatura-	?
+Rayuela-	Julio Cortazar-	Literatura-	?
+El tunel -	Ernesto Sabato-	Literatura-	?
+Don Quijote de la mancha-	Miguel de cervantes-	Literatura-	Edicion conmemorativa del cuarto centenario
+Inventario -	Mario benedeti-	Literatura-	?
+Vientos de Cuaresma-	Leonardo Padura-	Literatura-	?
+El imperio de lo efimero-	Guilles Lipovetsky-	Literatura-	?
+Neblina de ayer-	Leonardo Padura-	Literatura-	?
+Aquello estaba deseando ocurrir-	Leonardo Padura-	Literatura-	?
+La novela de mi vida-	Leonardo Padura-	Literatura-	?
+Sin tregua-	German Castro Caisedo-	Literatura-	?
+Diario de irak-	Mario Vargas llosa-	Literatura-	?
+El ultimo encuentro-	Sándor Márai-	Literatura-	?
+La resistencia-	Ernesto Sabato-	Literatura-	?
+Cuentos chinos-	Andres Hoppenheimer-	Sociales-	?
+Curso de literatura europea-	Vladimir Nabokov-	Literatura-	?
+Curso de literatura rusa-	Vladimir Nabokov-	Literatura-	?
+Primer amor-	Ivan Turgueniev-	Literatura-	?
+Aura-	Carlos Fuentes-	Literatura-	?
+La llamada de la tribu -	Mario Vargas Llosa-	Literatura-	?
+Viaje a portugal-	Jose Saramago-	Literatura-	?
+Mascaras-	Leonardo Padura-	Literatura-	?
+Manifiesto Mexicano-	Denise Dresser-	Literatura-	?
+Imperio-	Antonio Negri-	Literatura-	?
+Invitados de la princesa-	Fernando Sabater-	Literatura-	?
+La fiesta del chivo-	Mario Vargas llosa-	Literatura-	?
+La cartuja de parma-	Stendhal-	Literatura-	?
+El hueco-	German Castro Caisedo-	Literatura-	?
+Memorias secretas del revolcón -	Mauricio Vargas-	Historia-	?
+Condores no entierran todos los dias -	Gustavo Alvarez Gardiazabal-	Literatura-	?
+Pa que se acabe la vaina -	William Ospina-	Literatura-	?
+La verdad sobre le caso Harry Quebert-	Joel Dicker-	Literatura-	?
+El don de la palabre-	Antonio Gala-	Literatura-	?
+El legado de los espias-	John Legarre-	Literatura-	?
+El sastre de panama-	John Legarre-	Literatura-	?
+La tia julia y el escribidor-	Mario Vargas Llosa-	Literatura-	?
+La verdadera Historia del club bilderberg Tomo 1-	Daniel Estulin-	Literatura-	?
+La verdadera Historia del club bilderberg Tomo 2|-	Daniel Estulin-	Literatura-	?
+La crisis del islam-	Bernar Lewis -	Literatura-	?
+El quijote de la mancha-	Miguel de Cervantes-	Cubano-	?
+El hombre que amaba los perros -	Leonardo Padura-	Literatura-	?
+Tito-	Hasper Ridley-	Literatura-	?
+El huracan -	German Castro Caisedo-	Literatura-	?
+La caida de los gigantes-	Ken Follet-	Literatura-	?
+La forma de las ruinas-	Juan Gabriel Vasquez-	Literatura-	?
+El amor y otros demonios-	Gabriel Garcia Marques-	Literatura-	?
+Inferno-	Dan Brown -	Literatura-	?
+Los muchachos de Zinc-	Svetlan Alexievich-	Literatura-	?
+Mas alla del olvido -	Patric Modiano-	Literatura-	?
+Ursua-	William Ospina-	Literatura-	?
+Historia de los judios-	Paul Johnson-	Literatura-	?
+Cien años de soledad-	Gabriel Garcia Marques-	Literatura-	?
+Fahreheit 451 -	Ray Bradbury-	Literatura-	?
+Tres Cuentos y una proclama-	Gabriel Garcia Marques-	Literatura-	?
+Esparragos para dos leones-	Alfredo Iriarte-	Literatura-	?
+Curso sobre el quijote-	Vladimir Nabokov-	Literatura-	?
+Libro negro -	Orhan Pamuk-	Literatura-	?
+Las arenas de amon-	Valerio Massimo-	Literatura-	?
+Dulces guerreros cubanos-	Norberto Fuentes-	Literatura-	?
+La edad de hierro-	Coetzee-	Literatura-	?
+Plegarias atendidas-	Truman Capote-	Literatura-	?
+Contra la censura-	Coetzee-	Literatura-	?
+Persona non grata-	Jorge Edwards-	Literatura-	?
+Cementerio de praga-	Umberto Eco-	Literatura-	?
+Novelas inmortales rojo y negro-	Schendal -	Literatura-	?
+El señor de las moscas-	William Golding-	Literatura-	?
+La fabrica de porselana-	Antonio Negri-	Literatura-	?
+En america-	Susan Sontag-	Literatura-	?
+Fouché-	Stefan Zwig-	Literatura-	?
+El heroe discreto-	Mario Vargas llosa-	Literatura-	?
+El turco-	Francisco Veiga-	Literatura-	?
+Noticia de un secuestro -	Gabriel Garcia Marques-	Literatura-	?
+Cronica de una muerte anunciada-	Gabriel Garcia Marques-	Literatura-	?
+Memorias de mis putas tristes-	Gabriel Garcia Marques-	Literatura-	?
+Viajes con un mapa en blanco-	Juan Gabriel Vasquez-	Literatura-	?
+Pantaleon y las visitadoras-	Mario Vargas Llosa-	Literatura-	?
+El sueño del celta-	Mario Vargas Llosa-	Literatura-	?
+Isral y palestina-	Mario Vargas Llosa-	Literatura-	?
+El fuego invicible-	Javier Sierra-	Literatura-	?
+Estambul -	Orhan Pamuk-	Literatura-	?
+Abril Rojo-	Santiago Roncagliodo-	Literatura-	?
+El pais que nos toco-	Enrique Santos-	Literatura-	?
+De la estupides a la locura-	Umberto Eco-	Literatura-	?
+La carne-	Rosa Montero-	Literatura-	?
+Mas alla del olvido -	Patric Modiano-	Literatura-	?
+La traicion de roma-	Santiago Posteguillo-	Literatura-	?
+Entrevista sobre el ciclo XXI-	Eric Hobsbawm-	Sociales-	?
+La guerra del siglo XXI-	Lester Thurow-	Sociales-	?
+Y refundaron la patria-	Claudia Lopez-	Sociales-	?
+Utopia desarmada-	Jorge Castañeda-	Sociales-	?
+Consciencia con violencia-	Stefan Zweig-	Sociales-	?
+Filosofia y politica en el pensamiento de Gramci-	Autores Varios-	Sociales-	?
+Colombia una nacion a pesar de si misma-	David Bushnell-	Sociales-	?
+Cicatrices de guerras, heridas de paz la tragedia arabe israeli-	Shlomo Ben-Ami -	Sociales-	?
+Napoleon tomo 1-	Max Gallo-	Literatura-	?
+Napoleon tomo 2-	Max Gallo-	Literatura-	?
+Gramci y el bloque historico-	Hugues Portelli -	Sociales-	?
+El oficio del sociologo-	Pierre Bourdeieu-	Sociales-	?
+Intelectuales, politica y poder-	Pierre Bourdeieu-	Sociales-	?
+Introduccion a la filosofia -	Antonio Gramci-	Sociales-	?
+Cien años de soledad-	Gabriel Garcia Marques-	Literatura-	Colección del tiempo
+Alicia en el pais de las maravillas-	Lewis Carrol-	Literatura-	Colección del tiempo
+Tropico de capricornio -	Henry Miller-	Literatura-	Colección del tiempo
+Historia del cerco de lisboa-	Jose Saramago-	Literatura-	Colección del tiempo
+Adios a las armas-	Hernest Hemingway-	Literatura-	Colección del tiempo
+La mansion de araucaima-	Alvaro Mutis-	Literatura-	Colección del tiempo
+Fuente ovejuna-	Lope de Vega-	Literatura-	Colección del tiempo
+Los jefes-	Mario Vargas Llosa-	Literatura-	Colección del tiempo
+Dublineses-	James Joyce-	Literatura-	Colección del tiempo
+La voragine-	Jose Eustacio Rivera-	Literatura-	Colección del tiempo
+El quijote de la mancha tomo 1-	Miguel de Cervantes-	Literatura-	Colección del tiempo
+Gabriela, clavo y canela-	Jorge Amado-	Literatura-	Colección del tiempo
+La muerte en venecia-	Thomas Mann-	Literatura-	Colección del tiempo
+El quijote de la mancha tomo 2-	Miguel de Cervantes-	Literatura-	Colección del tiempo
+Cumbres borrascosas-	Emily Bronte-	Literatura-	Colección del tiempo
+Fausto-	Johan Goethe -	Literatura-	Colección del tiempo
+El sueño del presidente -	Miguel Anguel Asturias-	Literatura-	Colección del tiempo
+Romance gitano -	Federico Garcia Loraca-	Literatura-	Colección del tiempo
+La odisea-	Homero-	Literatura-	Colección del tiempo
+La divina comedia-	Dante de Alighieri-	Literatura-	Colección del tiempo
+La metamorfosis-	Frank Kafka-	Literatura-	Colección del tiempo
+El cantar del mio cid-	Anonimo-	Literatura-	Colección del tiempo
+La señora Dalloway-	Virginia Woolf-	Literatura-	Colección del tiempo
+20 poemas de amor y una cancion desesperada-	Pablo Neruda-	Literatura-	Colección del tiempo
+Viaje al centro de la tierra-	Julio Verne-	Literatura-	Colección del tiempo
+Hamlet-	William Skakespeare-	Literatura-	Colección del tiempo
+Maria-	Jorge Isaac-	Literatura-	Colección del tiempo
+Otras inquisiciones-	Jorge Luis Borges-	Literatura-	Colección del tiempo
+La peste-	Albert Camus-	Literatura-	Colección del tiempo
+Las aventuras de tom Sawyer-	Marc Twain-	Literatura-	Colección del tiempo
+Las pasos perdidos-	Alejo Carpentier-	Literatura-	Colección del tiempo
+El jugador-	Fedor Dostoievstky-	Literatura-	Colección del tiempo
+El coronel no tiene quien le escriba -	Gabriel Garcia Marques-	Literatura-	Colección del tiempo
+La isla del tesoro-	Robert Louis Stevenson -	Literatura-	Colección del tiempo
+Las mil y una noche-	Anonimo-	Literatura-	Colección del tiempo
+El retrato de dorian gray-	Oscar Wilde-	Literatura-	Colección del tiempo
+Madam Bovary-	Gustave Flauber-	Literatura-	Colección del tiempo
+Narraciones extraordinarias-	Edgar Allan Poe-	Literatura-	Colección del tiempo
+La colmena-	Camilo Jose Cela-	Literatura-	Colección del tiempo
+El tunel -	Ernesto Sabato-	Literatura-	Colección del tiempo
+Las armas secretas-	Julio Cortazar-	Literatura-	Colección del tiempo
+Las practicas sociales-	Alicia Gutierrez-	Sociales-	?
+Maquiavelo-	Louis Gautier-	Literatura-	?
+Ciencia con consciencia-	Edgar Morin-	Pedagogia-	?
+Educacion, la agenda del siglo XXI-	Hernando Gomez Buendia-	Pedagogia-	?
+Introduccion al pensamiento complejo-	Edgar Morin-	Pedagogia-	?
+La escuela inteligente-	David Perkings-	Pedagogia-	?
+Teoria de piaget-	Barry Wadsworth-	Pedagogia-	?
+Inclusion de l otro-	Jurgen Habermas-	Sociales-	?
+Inteligencias Multiples-	Helena Maria Ortiz-	Pedagogia-	?
+La educacion encierra un tesoro-	UNESCO-	Pedagogia-	?
+Diccionario de ciencias de la educacion -	Luis Castro-	Pedagogia-	?
+Derecho a la educacion -	Defensoria del pueblo-	Pedagogia-	?
+No hay quinto animalo-	Luis Eduardo Aute-	Literatura-	?
+Antologia de la poesia latinoamericana-	Autores Varios-	Literatura-	?
+Los yareguies, resistencia y exterminio-	Rafael Velasquez-	Sociales-	?
+Pipaton -	Elmer Pinilla-	Literatura-	?
+Otra vision de la musica cubana-	Leonardo Acosta-	Musica-	?
+Pasion de rumbero-	Maria del Carmen Miestas-	Literatura-	?
+El sistema religioso del afrocubanos-	Romulo Lachatañere-	Literatura-	?
+Del tambor al sistetizador-	Leonardo Acosta-	Musica-	?
+Siempre compay-	Lino Betancour-	Musica-	?
+Diccionario de la musica cubana-	Helio Orovio -	Musica-	?
+Cien años de vallenato -	Daniel Samper Pizano-	Musica-	?
+Chano Pozo. La vida-	Rosa Marqueti-	Musica-	?
+Diccionario enciclopedico de la musica cubana Tomo 1-	Radames Giro -	Musica-	?
+Diccionario enciclopedico de la musica cubana Tomo 2-	Radames Giro -	Musica-	?
+Diccionario enciclopedico de la musica cubana Tomo 3-	Radames Giro -	Musica-	?
+Diccionario enciclopedico de la musica cubana Tomo 4-	Radames Giro -	Musica-	?
+Tres tristes tigres-	Guillermo Cabrera-	Literatura-	?
+Las hijas del capitan -	Maria Dueñas-	Literatura-	?
+Los dias azules-	Fernando Vallejo-	Literatura-	?
+La teoria de las formas de gobierno en la historia del pensamiento publico-	Norberto Bobio-	Sociales-	?
+El futuro de la democracia-	Norberto Bobio-	Sociales-	?
+Reportes desde colombia -	Marta Harnecker-	Sociales-	?
+Regimen salarial y prestacional de los docentes-	Harold Mosquera-	Derecho-	?
+Regimen laboral de los docentes-	Alfonso Ospina-	Derecho-	?
+Constitucion politica de colombia-	Anonimo-	Derecho-	?
+La biblia-	Anonimo-	Sociales-	?
+El arte de ensayar-	Fernando Sabater-	Varios-	?
+La hermandad de la buena suerte-	Fernando Sabater-	Literatura-	?
+Colombia a traves del tiempo tomo 1-	El Tiempo-	Paises y ciudades-	?
+Colombia a traves del tiempo tomo 2-	El Tiempo-	Paises y ciudades-	?
+Nuestro patrimonio-	El Tiempo-	Paises y ciudades-	?
+Colombia musical-	Luis Felipe Jaramillo-	Musica-	?
+Colombia equina-	El Tiempo-	Paises y ciudades-	?
+Roma antigua-	Anonimo-	Paises y ciudades-	?
+Colombia a traves del tiempo tomo 3-	El Tiempo-	Paises y ciudades-	?
+Colombia a traves del tiempo tomo 4-	El Tiempo-	Paises y ciudades-	?
+Colombia a traves del tiempo tomo 5-	El Tiempo-	Paises y ciudades-	?
+Mallorca desde el mar-	Varios-	Paises y ciudades-	?
+New Orleans-	Baleares-	Paises y ciudades-	?
+Triangulo del café-	Semana-	Paises y ciudades-	?
+Barrancabermeja imagen e identidad-	Varios-	Paises y ciudades-	?
+Fiestas populares colombianas-	Varios-	Paises y ciudades-	?
+Cuaderno latino de la salsa-	Gary Domingues-	Musica-	?
+Donde va la coma-	Fernando Avila-	Varios-	?
+Evitemos gazapos y gazapitos tomo 1-	Jose Tallet-	Varios-	?
+Evitemos gazapos y gazapitos tomo 2-	Jose Tallet-	Varios-	?
+Codigo de la educacion -	Alfonso Ospina-	Derecho-	?
+El principe -	Nicolas Maquiavelo-	Literatura-	?
+Estudios gaston bachelar-	Autores Varios-	Sociales-	?
+La politica y las izquierda de fin de ciclo -	Antonela Atili-	Sociales-	?
+La vida oculta de fidel-	Juan Reinaldo Sanchez-	Literatura-	?
+La fuerza del cambio -	Andres Almarales-	Sociales-	?
+La globalizacion -	Zygmunt Bauman-	Sociales-	?
+La renta basica mas alla de la sociedad salarial-	Autores Varios-	Sociales-	?
+20 años de la ley general de educacion-	Abel Rodriguez-	Derecho-	?
+Manual de redaccion-	Autores Varios-	Varios-	?
+Diccionario de sinonimos y antonimos-	Autores Varios-	Varios-	?
+Viaje por la memoria historica colección-	Caja de Herramienas-	Sociales-	?
+Josepgh Conrad y su mundo-	Jesse Conrad-	Sociales-	?
+No quiero piedra en mi camino-	Jose Aquiles y Pedro Lopez-	Musica-	?
+Como una novela-	Daniel Pennac-	Literatura-	?
+Liberalismo y democracia -	Norberto Bobio-	Sociales-	?
+Diccionario de sinonimos, paronimos, antonimos y homonimos-	Estrada-	Varios-	?
+Don Quijote de la mancha-	Miguel de Cervantes-	Literatura-	Real Academia de la lengua
+Homo academicous-	Pierre Bourdeieu-	Sociales-	?
+Campo politico en universidades publicas-	Rene Guevara-	Sociales-	?
+Ley general de educacion y reglamentarios-	Autores Varios-	Derecho-	?
+Normas basicas del educador-	Victor Manuel Cristancho-	Derecho-	?
+Regime juridico de la educacion colombiana-	Alfonso Ospina Bejarano-	Derecho-	?
+Otra vision de la musica popular cubana-	Leonardo Acosta-	Musica-	?
+La oscuras leyendas de chano pozo-	Licardo Oropesa Fernandez-	Musica-	?
+Vengo a decirle adios a los muchachos -	Josean Ramos-	Musica-	?
+Diccionario de la musica cubana -	Helio Orovio -	Musica-	?
+Leo marini, bobby capo y nelson pinedo-	Hector Ramirez Bedolla-	Musica-	?
+Musica cubana: la aguja en el surco-	Jose Reyes Fortun-	Musica-	?
+Merecumbe, biografia novelada de pacho galan-	Carlos Ramos Maldonado-	Musica-	?
+Constitucion politica de colombia-	Jorge Ortega Torres-	Derecho-	?
+Celia mi vida una autobiografia-	Ana Cristina Raymundo-	Musica-	?
+Movimiento de la nueva trova cubana-	Carlos Delgado Linares-	Musica-	?
+La musica en cuba-	Alejo Carpentier-	Musica-	?
+Benny More, hoy como ayer-	Sergio Santana-	Musica-	?
+La voz del barrio Hector Lavoe-	Sergio Santana-	Musica-	?
+El inolvidable Tito Rodriguez -	Sergio Santana-	Musica-	?
+Lucho Bermudez,cumbias, porros y viajes-	Autores Varios-	Musica-	?
+La habana tiene su son -	Ricardo R. Oropesa-	Musica-	?
+Elige tu, que canto yo -	Leonardo Acosta-	Musica-	?
+Un siglo de discografia cubana-	Jose Reyes Fortun-	Musica-	?
+Manual de procedimientos administrativos y contables aplicables a los F.S.E.-	SED-	Derecho-	?
+Exquisitas recetas de la casa-	Pesquera Jaramillo-	Cocina-	?
+Los cuadernos de praga-	Abel Posse-	Literatura-	?
+555 joyas de la sabiduria-	Jose Ramon Ayllon -	Literatura-	?
+Etica para vivir mejor-	Peter Singer -	Sociales-	?
+Seis sombreros para pensar-	Edward de Bono-	Pedagogia-	?
+Numero Cero -	Umberto Eco-	Literatura-	?
+Enseñame a ser heroe 2-	Mauricio Silva Guzman-	Literatura-	?
+Comprender la revolucion francesa-	Albert Soboul-	Sociales-	?
+El costeñol, un dialecto con todo la barba-	Jose Elias Cury-	Varios-	?
+La inutilidad de pisa para las escuelas-	Julio Carabaña-	Pedagogia-	?
+En busca de la politica-	Zygmunt Bauman-	Sociales-	?
+Seis zapatos para la accion -	Edward de Bono-	Pedagogia-	?
+El olvido que seremos-	Hector Abad Faciolince-	Literatura-	?
+Sobre la desobediencia civil -	Henry D. Thoreau-	Sociales-	?
+La marcha de hambre-	Rafael Roberto Hernandez-	Sociales-	?
+Union de maestros de colombia -	Alvaro Laiton-	Sociales-	?
+El codigo da vinci-	Dan Brown -	Literatura-	?
+Historia de las comunicaciones en el departamento de sucre-	Luis Eduardo Diaz-	Sociales-	?
+Historia de sincelejo-	Edgardo Tamara-	Sociales-	?
+Sabanas de corozal en la historia -	Adolfo Andres Tirado-	Sociales-	?
+Negociacion colectiva y sindicatos de empleados publicos-	Jairo Villegas Arbelaez-	Sociales-	?
+Diccionario de la lengua española -	Real Academia de la lengua-	Varios-	?
+Nueva seguridad y salud laboral en el magisterio-	Jose A. Rocha-	Derecho-	?
+Salsa: cronica de la musica del caribe urbano-	Cesar Miguel Rondon -	Musica-	?
+Gracias tiburon-	Manuel Gonzalo-	Varios-	?
+El sistema de salud colombiano en las proximas decadas-	Catalina Gutierrez-	Sociales-	?
+Guayacanal -	William Ospina-	Literatura-	?
+Musica popular cubana-	Radames Giro -	Musica-	?
+Derechos adquiridos en el derecho laboral-	Jorge Humberto Valero-	Derecho-	?
+Los cuatro acuerdos-	Miguel Ruiz-	Varios-	?
+El estatuto docente -	FECODE-	Derecho-	?
+La evaluación del magisterio. Los riesgos laborales y las enfermedades profesionales -	FECODE-	Derecho-	?
+De la interpretacion legal a la interpretacion constitucional-	Gilberto A. Blanco-	Derecho-	?
+Kant, vida y doctrina-	Ernst Cassirer -	Derecho-	?
+La eficacia simbolica del derecho -	Mauricio Garcia Villegas-	Derecho-	?
