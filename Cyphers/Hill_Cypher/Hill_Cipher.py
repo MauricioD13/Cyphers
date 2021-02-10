@@ -26,6 +26,7 @@ def text_issue(text,square):
     # determinant       5
     # lenght_text       6
 def preparation(key,text):
+
     #The key,cyphertext and option must be a string 
     key_numbers=[]
     text_numbers=[]
@@ -33,16 +34,22 @@ def preparation(key,text):
     key=list(key)
     lenght_text=len(text)
     information=[]
+    
     for j in range(len(key)): 
+
         for i in Letters.items():           
             if i[0]==key[j]:
                 key_numbers.append(i[1])
+
     information.append(int(math.sqrt(len(key_numbers)))) #square 0
     information.append(text_issue(text,information[0])) #lenght_plaintext 
+
     for j in range(len(text)):
+
         for i in Letters.items():
          if i[0]==text[j]:
               text_numbers.append(i[1])
+
     information.append(text_numbers) # text_numbers 2
     information.append(np.array(key_numbers).reshape(information[0],information[0])) #key_matrix 3
     det_key_matrix=int(np.linalg.det(information[3]))
@@ -63,7 +70,6 @@ def Encryption(information):
     lenght_plaintext=information[1]
     plaintext_numbers=information[2]
     key_matrix=information[3]
-    lenght_text=information[6]
 
     #Process of Encryption
     words=int(lenght_plaintext/square)
@@ -126,8 +132,6 @@ def menu(switcher):
     if switcher==1:
         plaintext=input("Palabra a cifrar:")
         plaintext=plaintext.lower()
-        text_numbers=[]
-        key_numbers=[]
         #Key=input("Palabra llave:")
         key="ebdacbfbd" 
         information=[]  

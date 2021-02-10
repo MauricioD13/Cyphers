@@ -4,18 +4,24 @@ import Hill_Cipher
 window=Tk()
     
 window.title("Hill Cipher")
-window.geometry("500x500")
+window.geometry("500x200")
 
 def clicked():
     information=[]
-    if action_options.get()=="Cifrar":
-       if key_select.get()==0: 
+    if action_options.get() == "Cifrar":
+
+       if key_select.get() == 0: 
+
             information=Hill_Cipher.preparation(key_txt.get(),text_txt.get())
             print(information[1])
+
        else:
+
             information=Hill_Cipher.preparation("ebdacbfbd",text_txt.get())
+            
        mensaje=Hill_Cipher.Encryption(information)
        result_label.configure(text=mensaje)
+
     else:
         if key_select.get()==0: 
             information=Hill_Cipher.preparation(key_txt.get(),text_txt.get())
