@@ -26,7 +26,12 @@ def text_issue(text,square):
     # determinant       5
     # lenght_text       6
 def preparation(key,text):
+<<<<<<< HEAD
     #Key,cyphertext and option must be a string 
+=======
+
+    #The key,cyphertext and option must be a string 
+>>>>>>> 6ffa9736eabff8002b143b3485563c2f8e91f06b
     key_numbers=[]
     text_numbers=[]
     text=list(text)
@@ -34,21 +39,35 @@ def preparation(key,text):
     lenght_text=len(text)
     information=[]
     
+<<<<<<< HEAD
     #Changes the letters with their respective number in the alphabet
     for j in key: 
+=======
+    for j in range(len(key)): 
+
+>>>>>>> 6ffa9736eabff8002b143b3485563c2f8e91f06b
         for i in Letters.items():           
             if i[0]==j:
                 key_numbers.append(i[1])
 
+<<<<<<< HEAD
     #Add usefull information for other process
     information.append(int(math.sqrt(len(key_numbers)))) #square 0
     information.append(text_issue(text,information[0])) #lenght_plaintext 
 
     #Changes the letters with their respective number in the alphabet
     for j in text:
+=======
+    information.append(int(math.sqrt(len(key_numbers)))) #square 0
+    information.append(text_issue(text,information[0])) #lenght_plaintext 
+
+    for j in range(len(text)):
+
+>>>>>>> 6ffa9736eabff8002b143b3485563c2f8e91f06b
         for i in Letters.items():
          if i[0]==j:
               text_numbers.append(i[1])
+
     information.append(text_numbers) # text_numbers 2
     information.append(np.array(key_numbers).reshape(information[0],information[0])) #key_matrix 3
 
@@ -71,7 +90,6 @@ def Encryption(information):
     lenght_plaintext=information[1]
     plaintext_numbers=information[2]
     key_matrix=information[3]
-    lenght_text=information[6]
 
     #Process of Encryption
     words=int(lenght_plaintext/square)
@@ -136,8 +154,6 @@ def menu(switcher):
     if switcher==1:
         plaintext=input("Palabra a cifrar:")
         plaintext=plaintext.lower()
-        text_numbers=[]
-        key_numbers=[]
         #Key=input("Palabra llave:")
         key="ebdacbfbd" 
         information=[]

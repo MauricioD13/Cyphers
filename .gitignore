@@ -1,5 +1,11 @@
 _pycache_
 py_networking/
 Projects/Libros/Books/
+<<<<<<< HEAD
 Music/env/
 Cyphers/Hill_Cypher/_pycache_/
+=======
+Project/Libros/__pycache__/
+Projects/Libros/env/
+__pycache__/
+>>>>>>> 6ffa9736eabff8002b143b3485563c2f8e91f06b
