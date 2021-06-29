@@ -1,3 +1,5 @@
 _pycache_
-/py_networking
-/Projects/Libros/Books
+py_networking/
+Projects/Libros/Books/
+Music/env/
+Cyphers/Hill_Cypher/_pycache_/

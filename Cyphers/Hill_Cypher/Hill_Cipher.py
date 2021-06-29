@@ -26,30 +26,38 @@ def text_issue(text,square):
     # determinant       5
     # lenght_text       6
 def preparation(key,text):
-    #The key,cyphertext and option must be a string 
+    #Key,cyphertext and option must be a string 
     key_numbers=[]
     text_numbers=[]
     text=list(text)
     key=list(key)
     lenght_text=len(text)
     information=[]
-    for j in range(len(key)): 
+    
+    #Changes the letters with their respective number in the alphabet
+    for j in key: 
         for i in Letters.items():           
-            if i[0]==key[j]:
+            if i[0]==j:
                 key_numbers.append(i[1])
+
+    #Add usefull information for other process
     information.append(int(math.sqrt(len(key_numbers)))) #square 0
     information.append(text_issue(text,information[0])) #lenght_plaintext 
-    for j in range(len(text)):
+
+    #Changes the letters with their respective number in the alphabet
+    for j in text:
         for i in Letters.items():
-         if i[0]==text[j]:
+         if i[0]==j:
               text_numbers.append(i[1])
     information.append(text_numbers) # text_numbers 2
     information.append(np.array(key_numbers).reshape(information[0],information[0])) #key_matrix 3
-    det_key_matrix=int(np.linalg.det(information[3]))
-    #print(information[3])
-    #print(det_key_matrix)
-    invert_number=inversion_modular.module_invert(det_key_matrix-1)
-    #print(invert_number)
+
+    #The determinant is needed for calculate the modular inverse 
+    det_key_matrix=int(np.linalg.det(information[3]))#matrix determinant 5
+   
+    #The modular inverse is calculated for the cypher process
+    invert_number=inversion_modular.module_invert(det_key_matrix-1)#invert_number 4
+    
     information.append(invert_number)
     information.append(det_key_matrix-1)
     information.append(lenght_text)
@@ -69,15 +77,17 @@ def Encryption(information):
     words=int(lenght_plaintext/square)
     array_plaintext=[]
     for i in range(0,words):
+        #Append an numpy array with the length of a square, moving in block of th same length 
         array_plaintext.append(np.array(plaintext_numbers[i*square:(i*square)+square]))
     result=[]
     res=[]
     for p in range(0,words):
+        #Dot product between the key and array of the plaintext
         result=np.dot(array_plaintext[p],key_matrix)
         result=result%26
-        for j in range(0,3):
+        for j in result:
             for i in Letters.items():
-                    if i[1]==result[j]:
+                    if i[1]==j:
                         res.append(i[0])
     encript_message=""
     for i in range(0,lenght_plaintext):
@@ -130,8 +140,11 @@ def menu(switcher):
         key_numbers=[]
         #Key=input("Palabra llave:")
         key="ebdacbfbd" 
-        information=[]  
+        information=[]
+        #This function changes the plaintext text with the amount of characters needed  
         information=preparation(key,plaintext,"encrypt")
+        
+        
         encript_message=Encryption(information)
         print(encript_message)
     elif switcher==2:

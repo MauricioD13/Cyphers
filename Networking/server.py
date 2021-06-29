@@ -3,7 +3,7 @@ import threading #Usar varios hilos en un mismo programa, para que el servidor p
 
 
 HEADER = 64 # Tamaño del primer mensaje que se recibirá
-PORT = 8080
+PORT = 7000
 SERVER= socket.gethostbyname(socket.gethostname()) #gethostname devuelve el nombre del pc en que se esta corriendo el script
 #gethostbyname sabiendo cual es el nombre de la maquina esta funcion devuelve la direccion de IP del pc
 
