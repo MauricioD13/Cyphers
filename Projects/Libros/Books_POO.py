@@ -53,12 +53,7 @@ class Library:
                 items.append(info)
         for item in items:
             book = Book(item[0],item[1],item[2],item[3])
-            library.new_book(book)
-
-        
-                
-            
-            
+            library.new_book(book)    
                  
 
 library = Library("Mi biblioteca")    
