@@ -7,7 +7,7 @@ hermetrics==0.1.13
 idna==3.2
 imageio==2.9.0
 imageio-ffmpeg==0.4.4
-lxml==4.6.3
+lxml==4.6.5
 moviepy==1.0.3
 numpy==1.19.5
 Pillow==8.3.2
