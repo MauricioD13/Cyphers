@@ -26,12 +26,21 @@ The inspiration of learning how to make a server in python, resulted in making a
 
 When we are learning about network and IP adresses, can be confusing calculate the ammoung of IP addresses that fit within a determinate mask
 
+The code **IP_Calculator.py**:
+This code defines a GUI application that calculates information about an IP address and its mask. The user enters an IP address and a mask in the designated text entry boxes and then clicks the "Calculate" button. This triggers the clicked function, which calls the ip_finder function in the IP_address module, passing it the entered IP address and mask as arguments. The ip_finder function returns a tuple of four strings containing the calculated mask, wildcard,
+
+The code **IP_address.py**:
+This code defines the ip_finder function, which takes an IP address and a mask as arguments and calculates various information about the IP address and mask. It first splits the IP address into its four octets and converts the mask to an integer. It then uses the decimal_to_binary function from the Binary module to convert the mask to its binary representation. It then calculates the wildcard, network address, and number of available hosts for the given IP address and mask, and returns a list of strings containing these values. The ip_finder function also uses the binary_to_decimal function from the Binary module to convert the binary representation of the network address to its decimal representation.
+
+The code **Binary.py**:
+This code defines two functions, decimal_to_binary and binary_to_decimal, that can be used to convert a decimal number to its binary representation and vice versa. The decimal_to_binary function takes a decimal number as an argument and returns its binary representation as a list of 0s and 1s. The binary_to_decimal function takes a binary number as an argument and returns its decimal representation as an integer. Both functions use a global list bits, which contains the powers of 2 from 128 to 1. This list is used to determine which bits in the binary representation of a number should be 1 and which should be 0.
+
 ### Library
 
 Program that read a txt file with a library information and do a search within this information, after that the results are present in a GUI made with Tkinter.
 
-The code Books.py: 
+The code **Books.py**: 
   This code defines a GUI application with a search feature that allows users to search for books by title or author. It also provides a feature to add new books to a list of books. The search function takes user input from a text entry box and a dropdown menu to determine whether to search by title or author. It then calls the search function from the search_books module, passing it the selected option and the search query entered by the user. The search function returns a list of books matching the search criteria, which are then displayed in a new window. The new_book function creates a new window that allows the user to enter the details of a new book, which are passed to the book function when the user clicks the "Add book" button. The book function then calls the append_book function in the search_books module to add the new book to the list of books.
   
-The code search_books.py:
+The code **search_books.py**:
   This code defines two functions, library and search, as well as a helper function append_book. The library function reads a text file called "Libros.txt" and parses the contents to extract the details of each book. It then returns a list of lists, where each inner list contains the details of a single book. The search function takes two arguments: an option that specifies whether to search by title or author, and a search query. It calls the library function to get the list of books and then performs a search based on the selected option and the search query. If the search is successful, it returns the details of the matching book(s). The append_book function takes the details of a new book as arguments and appends them to the "Libros.txt" text file.
