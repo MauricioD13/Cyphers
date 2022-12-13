@@ -14,6 +14,16 @@ This project is about doing some ciphers with Python in this case the ciphers ar
 - Vigenere: Rotate the message letters by an amount of letters and rotate the alphabet each letter
 - Hill Cipher: Using the properties of matricial algebra encrypt a message with a password 
 
+#### Hill Cipher
+
+This code is a python implementation of the Hill Cipher encryption algorithm. The Hill cipher is a cryptographic algorithm that uses linear algebra to encrypt and decrypt messages. The algorithm takes a key, which is a square matrix, and a message as input, and uses matrix multiplication to encrypt the message. This code has three main functions: preparation(), Encryption(), and Decryption(). The preparation() function takes the key and message as input and returns a list containing information about the key and message that is used in the other two functions. The Encryption() function takes the output of preparation() as input and returns the encrypted message. Similarly, the Decryption() function takes the output of preparation() as input and returns the decrypted message.
+
+The first function, text_issue, is called by the preparation function to make sure that the plaintext (the message to be encrypted) is a multiple of the square of the length of the key. If it is not, the function pads the plaintext with the letter "z" until it is.
+
+The preparation function takes a key and plaintext as input and returns an array containing information that is used by the Encryption and Decryption functions. This information includes the length of the square matrix, the length of the plaintext, the plaintext converted to numbers, the key matrix, the modular inverse of the determinant of the key matrix, the determinant of the key matrix, and the length of the original plaintext.
+
+The Encryption and Decryption functions both take the array returned by the preparation function as input and use it to encrypt or decrypt the plaintext, respectively. The Encryption function returns the encrypted message as a string, while the Decryption function returns the decrypted message as a string.
+
 ### Music
 
 Make a downloader of Youtube where it organized the music, all of this with the help of a library call youtube_dl 
