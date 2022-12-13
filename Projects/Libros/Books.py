@@ -1,4 +1,14 @@
 # -*- coding: utf-8 -*-
+"""
+This code defines a GUI application with a search feature that allows users to search for books by title or author. 
+It also provides a feature to add new books to a list of books. The search function takes user input from a text 
+entry box and a dropdown menu to determine whether to search by title or author. It then calls the search function 
+from the search_books module, passing it the selected option and the search query entered by the user. The search 
+function returns a list of books matching the search criteria, which are then displayed in a new window. The new_book
+function creates a new window that allows the user to enter the details of a new book, which are passed to the book
+function when the user clicks the "Add book" button. The book function then calls the append_book function in the
+search_books module to add the new book to the list of books.
+"""
 from tkinter import*
 from tkinter import ttk,font,scrolledtext
 import search_books
